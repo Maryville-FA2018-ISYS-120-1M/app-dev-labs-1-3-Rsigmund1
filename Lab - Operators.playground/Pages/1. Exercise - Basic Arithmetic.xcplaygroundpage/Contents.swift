@@ -6,11 +6,14 @@
 let width = 10
 let height = 20
 let area = width + height
+/*
+ let area = width * height
+ print(area) */
 /*:
  You decide that you'll divide your shed into two rooms. You want to know if dividing it equally will leave enough room for some of your larger storage items. Create a `roomArea` constant that is the result of dividing `area` in half. Print out the result.
  */
 let roomArea = area / 2
-print(area)
+print(area) // print(roomArea)
 /*:
  Create a `perimeter` constant whose value equals `width` plus `width` plus `height` plus `height`, then print out the result.
  */
@@ -19,7 +22,7 @@ print(perimeter)
 /*:
  Print what you would expect the result of integer division of 10 divided by 3 to be. Create a constant, `integerDivisionResult` that is the result of 10 divided by 3, and print the value.
  */
-print("3.3333333333333")
+print("3.3333333333333") // looking for print(3), round to nearest integer, 3.33333 is a double number (has a decimal)
 let integerDivisonResult = 10/3
 print(integerDivisonResult)
 /*:
